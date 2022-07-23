@@ -585,4 +585,7 @@ body {
     #footer {
         margin-top: 4rem;
     }
+    .link {
+        margin-left: 3rem;
+    }
 }
