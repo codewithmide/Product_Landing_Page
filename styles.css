@@ -363,8 +363,9 @@ footer p {
     #nav-bar a {
         text-decoration: none;
         color: #FFFFFF;
-        font-size: 10px;
+        font-size: 8px;
         padding-right: .4rem;
+        display: flex;
     }
     #home {
         width: 200px;
