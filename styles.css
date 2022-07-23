@@ -535,10 +535,11 @@ footer p {
         width: 150px;
         height: 150px;
         text-align: center;
-        font-size: 1rem;
+        padding: 1rem;
     }
 
     #carton p {
+        padding-top: 1rem;
         font-size: 8px;
         width: fit-content;
     }
@@ -559,6 +560,7 @@ footer p {
         width: 150px;
         height: 150px;
         text-align: center;
+        padding: 1rem;
     }
     #piece p {
         padding-top: 1rem;
