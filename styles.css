@@ -565,13 +565,20 @@ body {
         height: 120px;
         text-align: center;
         padding: .5rem;
+
     }
     #piece p {
         padding-top: .5rem;
         font-size: 8px;
         width: fit-content;
     }
-    h4 {
+    #piece h4 {
+        font-size: .7rem;
+    }
+    #dozen h4 {
+        font-size: .7rem;
+    }
+    #carton h4 {
         font-size: .7rem;
     }
     #pricing {
