@@ -351,7 +351,7 @@ footer p {
 @media only screen and (max-width: 500px) {
     #header {
         padding: 1rem;
-        width: max-content;
+        width: auto;
         position: fixed;
     }
     #header-img {
@@ -497,7 +497,7 @@ footer p {
 
     .price p {
         font-size: 15px;
-        width: max-content;
+        width: 300px;
         text-align: center;
     }
 
