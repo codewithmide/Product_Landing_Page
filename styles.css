@@ -491,10 +491,15 @@ footer p {
         margin-left: 3rem;
     }
     /* PRICING */
+    .price {
+        width: 370px;
+        justify-content: center;
+        align-items: center;
+    }
 
     .price h1 {
         font-size: 2.5rem;
-        width: 300px;
+        
     }
 
     .price p {
@@ -511,7 +516,7 @@ footer p {
         margin-left: auto;
         padding: 0;
         margin: 0;
-        width: max-content;
+        width: 370px;
         gap: 1rem;
     }
 
@@ -553,9 +558,11 @@ footer p {
     footer {
         padding-bottom: 0;
         font-size: 15px;
+        width: 370px;
     }
     #link {
         padding-bottom: 0;
         font-size: 15px;
+        width: 370px;
     }
 }
