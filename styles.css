@@ -419,7 +419,7 @@ footer p {
     #fanta {
         width: 370px;
     }
-    
+
     #fanta h2 {
         font-size: 2.5rem;
         text-transform: capitalize;
@@ -532,48 +532,41 @@ footer p {
     }
 
     #carton {
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
         text-align: center;
-        padding: 1rem;
+        font-size: 1rem;
     }
+
     #carton p {
-        padding-top: 1rem;
-        font-size: 15px;
+        font-size: 8px;
         width: fit-content;
     }
 
     #dozen {
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
         text-align: center;
         padding: 1rem;
     }
     #dozen p {
         padding-top: 1rem;
-        font-size: 15px;
+        font-size: 8px;
         width: fit-content;
     }
 
     #piece {
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
         text-align: center;
-        padding: 1rem;
     }
     #piece p {
         padding-top: 1rem;
-        font-size: 12px;
+        font-size: 8px;
         width: fit-content;
     }
-    footer {
-        padding-bottom: 0;
-        font-size: 15px;
+    .price, .footer {
         width: 370px;
-    }
-    #link {
-        padding-bottom: 0;
         font-size: 15px;
-        width: 370px;
     }
 }
