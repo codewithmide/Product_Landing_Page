@@ -41,6 +41,7 @@ body {
     height: 60px;
     z-index: 99;
     animation: slideInFromLeft 2s ease-in-out;
+    background-color: #000000;
 }
 
 #header-img {
@@ -295,7 +296,7 @@ footer {
     justify-content: space-between;
     background: none;
     margin-top: 5rem;
-    padding: .5rem;
+    padding-bottom: 0;
 }
 footer p {
     text-align: center;
@@ -349,7 +350,6 @@ footer p {
 
 @media only screen and (max-width: 500px) {
     #header {
-        font-size: 16px;
         padding: 1rem;
         width: max-content;
         position: fixed;
@@ -362,7 +362,7 @@ footer p {
     #nav-bar a {
         text-decoration: none;
         color: #FFFFFF;
-        font-size: 8px;
+        font-size: 15px;
         padding-right: .4rem;
     }
     #home {
@@ -380,16 +380,17 @@ footer p {
     
     #form h2 {
         font-weight: 800;
-        font-size: 1.5rem;
+        font-size: 2rem;
         font-family: 'Montserrat', sans-serif;
         text-transform: capitalize;
         color: var(--sprite-text);
+        padding-bottom: 1rem;
     }
     
     #form p {
         margin-bottom: 1rem;
         color: var(--sprite-text);
-        font-size: 12px;
+        font-size: 15px;
         width: 200px;
     }
     #email {
@@ -400,7 +401,7 @@ footer p {
         width: 12rem;
         height: 2rem;
         font-family: 'Montserrat', sans-serif;
-        font-size: 10px;
+        font-size: 15px;
     }
     
     #submit {
@@ -413,17 +414,17 @@ footer p {
         border-radius: 5px;
     }
     #fanta h2 {
-        font-size: 2rem;
+        font-size: 2.5rem;
         text-transform: capitalize;
         color: var(--sprite-text);
-        margin-left: 1rem;
+        margin-left: 3rem;
         padding-top: 8rem;
     }
     
     #fanta p {
-        margin-left: 1rem;
+        margin-left: 3rem;
         color: var(--sprite-text);
-        font-size: 12px;
+        font-size: 15px;
         padding-top: 2rem;
         width: 300px;
     }
@@ -433,23 +434,23 @@ footer p {
         width: 350px;
         height: 350px;
         margin-top: 25rem;
-        margin-left: -4rem;
+        margin-left: -2rem;
     }
     
     /* COKE */ 
 
     #coke h2 {
-        font-size: 2rem;
+        font-size: 2.5rem;
         text-transform: capitalize;
         color: var(--sprite-text);
-        margin-left: 1rem;
+        margin-left: 3rem;
         padding-top: 8rem;
     }
     
     #coke p {
-        margin-left: 1rem;
+        margin-left: 3rem;
         color: var(--sprite-text);
-        font-size: 12px;
+        font-size: 15px;
         padding-top: 2rem;
         width: 200px;
     }
@@ -459,23 +460,23 @@ footer p {
         width: 200px;
         height: 320px;
         margin-top: 25rem;
-        margin-left: 1rem;
+        margin-left: 3rem;
     }
     
     /* SPRITE */
     
     #sprite h2 {
-        font-size: 2rem;
+        font-size: 2.5rem;
         text-transform: capitalize;
         color: var(--sprite-text);
-        margin-left: 1rem;
+        margin-left: 3rem;
         padding-top: 8rem;
     }
     
     #sprite p {
-        margin-left: 1rem;
+        margin-left: 3rem;
         color: var(--sprite-text);
-        font-size: 12px;
+        font-size: 15px;
         padding-top: 2rem;
         width: 300px;
     }
@@ -485,18 +486,18 @@ footer p {
         width: 200px;
         height: 320px;
         margin-top: 25rem;
-        margin-left: 1rem;
+        margin-left: 3rem;
     }
     /* PRICING */
 
     .price h1 {
-        font-size: 2rem;
+        font-size: 2.5rem;
         width: 300px;
     }
 
     .price p {
-        font-size: 12px;
-        width: 300px;
+        font-size: 15px;
+        width: max-content;
         text-align: center;
     }
 
@@ -508,7 +509,7 @@ footer p {
         margin-left: auto;
         padding: 0;
         margin: 0;
-        width: 300px;
+        width: max-content;
         gap: 1rem;
     }
 
@@ -517,11 +518,10 @@ footer p {
         height: 200px;
         text-align: center;
         padding: 1rem;
-
     }
     #carton p {
         padding-top: 1rem;
-        font-size: 12px;
+        font-size: 15px;
         width: fit-content;
     }
 
@@ -533,7 +533,7 @@ footer p {
     }
     #dozen p {
         padding-top: 1rem;
-        font-size: 12px;
+        font-size: 15px;
         width: fit-content;
     }
 
@@ -547,5 +547,13 @@ footer p {
         padding-top: 1rem;
         font-size: 12px;
         width: fit-content;
+    }
+    footer {
+        padding-bottom: 0;
+        font-size: 15px;
+    }
+    #link {
+        padding-bottom: 0;
+        font-size: 15px;
     }
 }
