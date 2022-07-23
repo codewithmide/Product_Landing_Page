@@ -537,8 +537,8 @@ body {
     }
 
     #carton {
-        width: 200px;
-        height: 200px;
+        width: 120px;
+        height: 120px;
         text-align: center;
         padding: 1rem;
     }
@@ -549,8 +549,8 @@ body {
     }
 
     #dozen {
-        width: 200px;
-        height: 200px;
+        width: 120px;
+        height: 120px;
         text-align: center;
         padding: 1rem;
     }
@@ -561,8 +561,8 @@ body {
     }
 
     #piece {
-        width: 200px;
-        height: 200px;
+        width: 120px;
+        height: 120px;
         text-align: center;
         padding: 1rem;
     }
