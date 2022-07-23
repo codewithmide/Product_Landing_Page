@@ -34,16 +34,18 @@ body {
     width: 100%;
     align-items: center;
     justify-content: space-between;
-    padding: 3rem 2rem 2rem 2rem;
+    padding: 2rem;
     position: fixed;
     overflow: hidden;
     top: 0;
     height: 60px;
+    z-index: 99;
+    animation: slideInFromLeft 2s ease-in-out;
 }
 
 #header-img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
 }
 
 #nav-bar {
@@ -71,6 +73,7 @@ body {
     top: 15%;
     position: absolute;
     z-index: -1;
+    animation: slideInFromLeft 2s ease-in-out;
 }
 
 /* FORM */
@@ -78,6 +81,7 @@ body {
     margin-top: 15rem;
     margin-left: 5rem;
     height: 100vh;
+    animation: slideInFromTop 2s ease-in-out;
 }
 
 #form h2 {
@@ -90,7 +94,7 @@ body {
 
 #form p {
     margin-bottom: 1rem;
-    color: var(--coke-text);
+    color: var(--sprite-text);
 }
 #email {
     border-radius: 5px;
@@ -107,7 +111,7 @@ body {
 #submit {
     outline: none;
     border: none;
-    background-color: var(--fanta3);
+    background-color: lime;
     height: 3rem;
     width: 6rem;
     margin-left: .5rem;
@@ -121,6 +125,7 @@ body {
     height: 100vh;
     width: auto;
     background-color: var(--fanta2);
+    animation: slideInFromTop 2s ease-in-out;
 }
 
 #fanta h2 {
@@ -136,11 +141,204 @@ body {
 
 #fanta p {
     margin-left: 35rem;
-    color: var(--coke-text);
+    color: var(--sprite-text);
     padding-right: 5rem;
 }
 
 #fanta-drink {
     position: absolute;
     margin-top: 5rem;
+}
+
+/* COKE */ 
+#coke {
+    height: 100vh;
+    width: auto;
+    background-color: var(--coke1);
+}
+
+#coke h2 {
+    font-weight: 800;
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    color: var(--sprite-text);
+    margin-left: 5rem;
+    padding-top: 15rem;
+    width: fit-content;
+}
+
+#coke p {
+    margin-left: 5rem;
+    margin-right: 30rem;
+    color: var(--sprite-text);
+}
+
+#coke-drink {
+    position: absolute;
+    margin-top: 6rem;
+    margin-left: 55rem;
+    height: 500px;
+    z-index: 1;
+}
+
+/* SPRITE */
+
+#sprite {
+    height: 100vh;
+    width: auto;
+    background-color: var(--sprite1);
+}
+
+#sprite h2 {
+    font-weight: 800;
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    color: var(--sprite-text);
+    margin-left: 35rem;
+    padding-top: 15rem;
+    width: fit-content;
+}
+
+#sprite p {
+    margin-left: 35rem;
+    color: var(--sprite-text);
+    padding-right: 5rem;
+}
+
+#sprite-drink {
+    position: absolute;
+    margin-top: 7rem;
+    height: 500px;
+    margin-left: 5rem;
+}
+
+/* PRICING */
+
+.price {
+    height: 100vh;
+    width: auto;
+    background: var(--coke2);
+    color: var(--sprite-text);
+}
+
+.price h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+    font-size: 3rem;
+    color: var(--sprite-text);
+    padding-bottom: 1rem;
+}
+
+.price p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+#pricing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+#carton {
+    width: 250px;
+    height: 250px;
+    border: var(--sprite-text) 2px solid;
+    border-radius: 5px;
+    text-align: center;
+    padding: 2rem;
+    text-transform: capitalize;
+}
+#carton p {
+    padding-top: 1rem;
+    font-size: 15px;
+}
+
+#dozen {
+    width: 250px;
+    height: 250px;
+    border: var(--sprite-text) 2px solid;
+    border-radius: 5px;
+    text-align: center;
+    padding: 2rem;
+    text-transform: capitalize;
+}
+#dozen p {
+    padding-top: 1rem;
+    font-size: 15px;
+}
+
+#piece {
+    width: 250px;
+    height: 250px;
+    border: var(--sprite-text) 2px solid;
+    border-radius: 5px;
+    text-align: center;
+    padding: 2rem;
+    text-transform: capitalize;
+}
+#piece p {
+    padding-top: 1rem;
+    font-size: 15px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--fanta-text);
+    margin-top: 6.7rem;
+    padding: .5rem;
+}
+footer p {
+    text-align: center;
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
+#links {
+    padding-right: 4rem;
+}
+/* KEYFRAMES */
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+    
+}
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+    
+}
+@keyframes slideInFromTop {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+    
+}
+@keyframes slideInFromBottom {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
 }
