@@ -541,10 +541,11 @@ body {
         height: 120px;
         text-align: center;
         padding: .5rem;
+        font-size: .8rem;
     }
     #carton p {
         padding-top: .5rem;
-        font-size: 15px;
+        font-size: 8px;
         width: fit-content;
     }
 
@@ -553,34 +554,29 @@ body {
         height: 120px;
         text-align: center;
         padding: .5rem;
+        font-size: .8rem;
     }
     #dozen p {
         padding-top: .5rem;
-        font-size: 15px;
+        font-size: 8px;
         width: fit-content;
     }
 
     #piece {
         width: 120px;
+        font-size: 1rem;
         height: 120px;
         text-align: center;
-        padding: .5rem;
+        padding: .8rem;
 
     }
     #piece p {
         padding-top: .5rem;
         font-size: 8px;
         width: fit-content;
+        margin-bottom: -1rem;
     }
-    #piece h4 {
-        font-size: .7rem;
-    }
-    #dozen h4 {
-        font-size: .7rem;
-    }
-    #carton h4 {
-        font-size: .7rem;
-    }
+   
     #pricing {
         padding: 0;
         margin: 0;
