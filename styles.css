@@ -40,7 +40,6 @@ body {
     top: 0;
     height: 60px;
     z-index: 99;
-    animation: slideInFromLeft 2s ease-in-out;
     background-color: #000000;
 }
 
